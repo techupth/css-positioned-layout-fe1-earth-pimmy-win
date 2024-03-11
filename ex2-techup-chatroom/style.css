@@ -1,1 +1,72 @@
 /* Start coding here */
+*{
+    padding: 2px;
+}
+
+.box {
+    width: 98vw;
+    height: 8vh;
+    background-color: gray;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 20px;
+}
+
+.me {
+    position: relative;
+    top: 5px;
+}
+
+.greenchat {
+    background-color: rgb(41, 207, 41);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    position: relative;
+    left: 88%;
+}
+
+#green1 ,#green2 ,#grey1 ,#grey2 ,#grey3{
+    margin-bottom: 10px;
+}
+
+.me .greychat {
+    background-color: rgb(197, 193, 193) ;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    position: relative;
+    left: 88%;
+    z-index: 1;
+}
+
+.close {
+    font-size: small;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: rgb(158, 155, 155);
+    position: absolute;
+    left: 185px;
+    bottom: 40px;
+    z-index: 2;
+}
+
+.text {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.you .greychat {
+    background-color: rgb(197, 193, 193) ;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
